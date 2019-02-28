@@ -11,11 +11,11 @@ public class Main {
         //declare and initialize scanner
         Scanner keyboard = new Scanner(System.in);
 
-        //create integer
-        Integer number = keyboard.nextInt();
-
         //Prompt user input
         System.out.println("Hello. This is the magic 8 ball. Ask a question and an answer will come your way.");
+
+        //create integer
+        Integer number = keyboard.nextInt();
 
         //creating possible responses
 
