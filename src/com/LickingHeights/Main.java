@@ -12,7 +12,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
 
         //Prompt user input
-        System.out.println("Hello. This is the magic 8 ball. Ask a question and an answer will come your way.");
+        System.out.println("Hello. This is the magic 8 ball. Think of a question & type a number and an answer will come your way.");
 
         //create integer
         Integer number = keyboard.nextInt();
