@@ -62,7 +62,7 @@ public class Main {
             System.out.println("Yeah, aight.");
         }
 
-        else if(number < 0 || number > 100) {
+        else if(number <= 0 || number >= 100) {
             System.out.println("Funny... that's not what I asked for.");
         }
     }
