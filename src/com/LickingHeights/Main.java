@@ -9,7 +9,8 @@ public class Main {
         //declare and initialize scanner//
         Scanner keyboard = new Scanner(System.in);
 
-        //
+        //create integer
+        Integer number = keyboard.nextInt();
 
     }
 }
