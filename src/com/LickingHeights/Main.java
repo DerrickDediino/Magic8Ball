@@ -14,7 +14,10 @@ public class Main {
         //create integer
         Integer number = keyboard.nextInt();
 
-        //Creating possible responses
+        //Prompt user input
+        System.out.println("Hello. This is the magic 8 ball. Ask a question and an answer will come your way.");
+
+        //creating possible responses
 
         if(number == 1 || number == 100) {
             System.out.println("Only if you think so.");
