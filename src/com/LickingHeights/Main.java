@@ -12,7 +12,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
 
         //Prompt user input
-        System.out.println("Hello. This is the magic 8 ball. Think of a question & type a number and an answer will come your way.");
+        System.out.println("Hello. This is the magic 8 ball. Think of a question, type a number from 1-100, and an answer will come your way.");
 
         //create integer
         Integer number = keyboard.nextInt();
@@ -55,7 +55,7 @@ public class Main {
         }
 
         else if(number >=80 && number <90) {
-            System.out.println("No way");
+            System.out.println("No way.");
         }
 
         else if(number >=90 && number <100) {
